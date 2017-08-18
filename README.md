@@ -4,7 +4,8 @@ This is a small project which pops up a new Cavafy poem everytime you reload the
 
 <h4>Setting up the project:</h4>
 Scrape poems of Cavafy by runnning the cavafySc.py file, and generate the json file.</br>
-
+The command is:</br>
+$ python cavafySc.py
 
 Start a mongo instance, and import the json file into a collection using the command:</br>
 $ mongoimport --db poems --collection cavf --file cav.json --jsonArray
