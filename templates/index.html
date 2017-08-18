@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poems</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+<body>
+    <p style="padding-left: 100px;padding-right: : 100px;">{% for poem in poems %}
+    <span style="text-align: center;">{{ poem.poem }}</span>
+    {% endfor %}
+    </p>
+   <!--<table>
+         <thead>
+            <tr>
+               <th>Id</th>
+               <th>Poem</th>
+                       </tr>
+         </thead>
+         
+         <tbody>
+            {% for poem in poems %}
+               <tr>
+                  <td>{{ poem.id }}</td>
+                  <td>{{ poem.poem }}</td>
+               </tr>
+            {% endfor %}
+         </tbody>
+      </table>-->
+</body>
+</html>
