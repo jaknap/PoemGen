@@ -1,5 +1,8 @@
 <h2>Poem Generator</h2>
 
+This is a small project which pops up a new Cavafy poem everytime you reload the page.
+
+<h4>Setting up the project:</h4>
 Scrape poems of Cavafy by runnning the cavafySc.py file, and generate the json file.
 
 Start a mongo instance, and import the json file into a collection using the command:
