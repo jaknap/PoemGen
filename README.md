@@ -1,4 +1,4 @@
-<h2>Poem Generator<h2>
+<h2>Poem Generator</h2>
 
 Scrape poems of Cavafy by runnning the cavafySc.py file, and generate the json file.
 
