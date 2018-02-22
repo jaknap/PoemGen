@@ -1,6 +1,6 @@
 <h2>Poem Generator</h2>
 
-This is a small project which pops up a new Cavafy poem everytime you reload the page.
+This is a personal project which pops up a new Cavafy poem everytime you reload the page.
 
 <h4>Setting up the project:</h4>
 
